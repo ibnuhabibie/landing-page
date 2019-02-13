@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Sarabun" rel="stylesheet">
+  <title>Ibnu Habibie - Developer and Entrepreneur</title>
+  <style>
+    body {
+      font-family: 'Sarabun', sans-serif;
+      color: #2f2c36;
+    }
+
+    .bg-pattern {
+      background-image: url(https://uploads-ssl.webflow.com/58efb1866b0361480e31bb71/5af46548d4432d5081d9619c_bg-pattern.svg);
+      background-position: 100% 50%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 10px 20px;
+    }
+
+    h1 {
+      font-size: 42px;
+      margin-bottom: 12px;
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-weight: 100;
+    }
+
+    .profile a {
+      padding: .5em 1em;
+      color: #2f2c36;
+      border: 1px solid #999;
+      border: transparent;
+      background-color: #E6E6E6;
+      text-decoration: none;
+      border-radius: 2px;
+    }
+
+    .flex-grid {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+
+    .col {
+      height: 230px;
+      background: antiquewhite;
+      width: 32%;
+    }
+
+    .menu {
+      clear: both;
+    }
+
+    @media (max-width: 600px) {
+
+      .flex-grid,
+      .flex-grid-thirds {
+        display: block;
+      }
+
+      .col {
+        width: 100%;
+        margin: 0 0 10px 0;
+      }
+    }
+  </style>
+</head>
+
+<body class="bg-pattern">
+  <main>
+    <section class="profile">
+      <h1>Hello!</h1>
+      <h2>I'm <b>Ibnu Habibie</b>, a developer and entrepreneur. I insanely enjoy & passionate about creating good
+        product that solve huge problem.</h2>
+      <h2>As an entrepreneur at PT. Maven Digital Asia, one of the fastest growing software agency in Indonesia, I'm
+        leading the technology side of the company.</h2>
+      <a href="https://blog.ibnuhabibie.com" target="_blank">Read my blog</a>
+    </section>
+    <section class="project">
+      <h2>Projects:</h3>
+        <div class="flex-grid">
+          <div class="col"></div>
+          <div class="col"></div>
+          <div class="col"></div>
+        </div>
+        <div class="flex-grid">
+          <div class="col"></div>
+          <div class="col"></div>
+          <div class="col"></div>
+        </div>
+    </section>
+    <section class="menu">
+      <p>mail: hi@ibnuhabibie.com | phone: (+62)-813-1961-6365</p>
+    </section>
+  </main>
+</body>
+
+</html>
